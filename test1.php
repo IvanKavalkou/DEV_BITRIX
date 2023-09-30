@@ -202,25 +202,7 @@ require_once __DIR__ . '/components/main/component.php';
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="company">Коллектив</label>
-							<div class="row">
-								<div class="col">
-									<input type="hidden" name="company__modal">
-									<input type="text" class="form-control" id="company" name="company__modal_name">
-								</div>
-								<button style="margin-right: 5px;" type="button" data-company_search data-search class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">
-									<i class="fa-magnifying-glass fas fa-sm text-white-100"></i>
-								</button>
-								<button type="button" data-company_open data-open class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-									<i class="fa-share-from-square fas fa-sm text-white-100"></i>
-								</button>
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="phone">Телефон</label>
-							<input type="text" class="form-control" id="phone" name="phone__modal">
-						</div>
-						<div class="form-group">
+						
 							<label>Дата и время</label>
 							<div class="row">
 								<div class="col">
